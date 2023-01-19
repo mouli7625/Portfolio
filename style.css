@@ -1,0 +1,157 @@
+body{
+	background-image: linear-gradient( 68.4deg,  rgba(248,182,204,1) 0.5%, rgba(192,198,230,1) 49%, rgba(225,246,240,1) 99.8% );
+  font-family: 'Muli', sans-serif;
+  
+}
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+.btn{
+	border-radius: 50%;
+	background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+	color: white;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0px;
+  margin: 23px 23px;
+	border: none;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 2px 6px 20px 2px rgba(0, 0, 0, 0.19); 
+}
+.btn2{
+	border-radius: 50%;
+	background-color: #7bc5c1;
+	color: black;
+  text-align: center;
+  margin: 23px 73px;
+  height: 260px;
+  width: 260px;
+  font-size: 28px;
+	border:  1px #d29ed6;
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-shadow:  2px 2px 2px grey;
+}
+.btn2:hover
+{
+    background-color: #b89168;
+
+	color: #ffffff;
+	font-size: 29px;
+	text-shadow:  2px 2px 2px #6a3550;
+
+}
+.btn3{
+	border-radius: 50%;
+	background-color: #73b0cd;
+
+	color: black;
+  text-align: center;
+  height: 260px;
+  width: 260px;
+  font-size: 32px;
+  margin: 23px 73px;
+	border:  1px #d29ed6;
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-shadow:  2px 2px 2px grey;
+}
+.btn3:hover
+{
+  background-color:  #b89168;
+	color: #ffffff;
+	font-size: 31px;
+	text-shadow:  2px 2px 2px #6a3550;
+
+}
+
+
+td{
+	font-size: 20px;
+}
+
+a{
+	color: black;
+  
+
+}
+a:hover{
+	color:#eea302 ;
+	font-size: 21px;
+}
+.link{
+	text-decoration: none;
+	font-size: 31px;
+	text-shadow: 1px 1px 1px grey;
+}
+.link:hover{
+	color: black;
+	font-size: 32px;
+}
+.im {
+	border: 1px solid #DCDCDC;
+	  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+
+  border-radius: 50%;
+   display: block;
+  margin-left:69px;
+  margin-right:auto;
+  margin-top: 49px;
+  width: 168%;
+}
+.im2{
+	width: 669px;
+	height: 50px;
+}
+.container {
+  display:flex; 
+  align-items: center;
+  justify-content: center;
+ 
+}
+.text {
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 222px;
+  
+}
+li{
+  font-size: 23px;
+}
+.container2{
+	margin-top: 28px;
+	margin-left: 180px;
+	display: flex;
+  margin-bottom: 49px;
+}
+hr.solid {
+  border-top: 1px solid grey;
+  box-shadow: 0 10px 5px -10px grey;
+  margin-bottom: 40px;
+}
+.linkedin{
+  width: 25px;
+  height: 25px;
+  transition: width 0.5s, height 0.5s;
+
+}
+.linkedin:hover{
+  width: 27px;
+  height: 27px;
+
+}

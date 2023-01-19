@@ -1,0 +1,108 @@
+
+.heading{
+	text-shadow: 1px 1px 2px white;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 0px;
+	color: #7c1d36;
+}
+.container3{
+	margin: 70px 80px 135px  100px;
+	padding: 19px 13px 120px 13px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 1px solid grey;
+}
+
+
+h3{
+	font-size: 32px;
+	text-shadow: 1px 1px 1px grey;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 43.33%;
+  padding: 10px;
+}
+.front{
+	width:32%;
+	transition: width 0.5s, height 0.5s;
+}
+.front:hover{
+	height: 101%;
+	width: 35%;
+}
+
+.front2{
+	width:40%;
+	transition: width 0.5s, height 0.5s;
+}
+.front2:hover{
+	height: 101%;
+	width: 45%;
+}
+
+.front3{
+	width:75%;
+	transition: width 0.5s, height 0.5s;
+}
+.front3:hover{
+	height: 140%;
+	width: 80%;
+}
+.Certifications{
+	margin-bottom: 20px;
+	font-size: 24px;
+	transition: width 0.5s, height 0.5s;
+}
+.Certifications:hover{
+	font-size: 26px;
+}
+
+.intern{
+	font-size: 23px;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-left: 40px;
+	transition: width 0.5s, height 0.5s;
+}
+.intern:hover{
+	font-size: 25px;
+
+}
+
+.edu{
+	margin-bottom: 20px;
+	font-size: 22.99px;
+	transition: width 0.5s, height 0.5s;
+}
+.edu:hover{
+	font-size: 23.7px;
+}
+.Download{
+	margin-top: 90px;
+	color: black;
+	width: 300px;
+	height: 70px;
+	padding: 12px 12px 12px 12px;
+	font-size: 31.9px;
+	border-radius: 20px;
+	text-shadow: 1px 1px 1px grey;
+	border: 1px solid black;
+	transition: width 0.1s, height 0.1s;
+	background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+
+}
+.Download:hover{
+	
+width: 307px;
+	height: 77px;
+		font-size: 32.5px;
+
+
+}
